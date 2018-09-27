@@ -73,7 +73,7 @@ private void M_MatriculaActionPerformed(java.awt.event.ActionEvent evt) {
 
   private void M_EliminarActionPerformed(java.awt.event.ActionEvent evt) {                                           
        
-        int ax=JOptionPane.showConfirmDialog(null,"¿Esta seguro que desea eliminar el registro? "+jIdentificacion.getText()+"?");
+        int ax=JOptionPane.showConfirmDialog(null,"Â¿Esta seguro que desea eliminar el registro? "+jIdentificacion.getText()+"?");
         if(ax==JOptionPane.YES_OPTION){
             
         Connection conectar = null;
@@ -100,7 +100,7 @@ private void M_MatriculaActionPerformed(java.awt.event.ActionEvent evt) {
             jruta_foto.setText ("");
         }
         if(i>0){
-            JOptionPane.showMessageDialog(null,"El registro se ha eliminado con éxito");
+            JOptionPane.showMessageDialog(null,"El registro se ha eliminado con Ã©xito");
         }else{
             JOptionPane.showMessageDialog(null,"Ha ocurrido un error!!, el registro no se elimino");
         }
@@ -171,7 +171,7 @@ private void M_MatriculaActionPerformed(java.awt.event.ActionEvent evt) {
         
         int n=pst.executeUpdate();
         if(n>0){
-            JOptionPane.showMessageDialog(null,"Los datos se han modificado con éxito");
+            JOptionPane.showMessageDialog(null,"Los datos se han modificado con Ã©xito");
         }else{
             JOptionPane.showMessageDialog(null,"Ha ocurrido un error!!, Los datos no se han modificado");
         }
