@@ -44,7 +44,7 @@ private void C_ModificarActionPerformed(java.awt.event.ActionEvent evt) {
         
         int n=pst.executeUpdate();
         if(n>0){
-            JOptionPane.showMessageDialog(null,"Los datos se han modificado con éxito");
+            JOptionPane.showMessageDialog(null,"Los datos se han modificado con Ã©xito");
         }else{
             JOptionPane.showMessageDialog(null,"Ha ocurrido un error!!, Los datos no se han modificado");
         }
